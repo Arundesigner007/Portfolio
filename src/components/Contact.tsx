@@ -6,7 +6,7 @@ import { CgArrowTopRight } from "react-icons/cg";
 
 const Contact = () => {
   return (
-    <div id="Contact">
+    <div id="Contact" className="min-h-screen">
       <SessionHeading>Contact</SessionHeading>
       <div className="py-10 px-6 space-y-20">
         <span className="space-y-3">
