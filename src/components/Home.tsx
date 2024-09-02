@@ -8,14 +8,14 @@ import avatar from "@assets/Avatar.png";
 const Home = () => {
   return (
     <div className="xl:h-screen flex flex-col relative" id="Home">
-      <div className="text-3xl md:text-5xl lg:text-7xl font-extrabold mx-auto mt-6 font-rowdies text-nowrap relative ">
+      <div className="text-xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold mx-auto mt-6 font-rowdies text-nowrap relative ">
         <span className="stylised-text">WELCOME </span>
         TO MY
         <span className="stylised-text"> PORTFOLIO</span>
       </div>
       <div className="flex *:flex-1 px-10  items-center h-full">
         <div className="w-fit h-fit">
-          <div className="w-fit relative">
+          <div className="w-fit relative my-6">
             <div className="text-xl md:text-3xl lg:text-5xl font-semibold">
               HI THERE!!
             </div>
