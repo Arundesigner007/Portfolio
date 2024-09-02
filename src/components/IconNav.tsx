@@ -8,7 +8,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const IconNav = () => {
   return (
-    <ul className="flex gap-3 bg-secondary text-primary px-2 py-1  justify-evenly lg:text-2xl lg:py-3 border-2 *:relative *:z-30">
+    <ul className="flex gap-3 bg-secondary text-primary px-2 py-1  justify-evenly lg:text-2xl lg:py-3 *:relative *:z-30">
       <ListItem>
         <a href="#Home">
           <IoHomeSharp />
