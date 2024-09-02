@@ -8,13 +8,33 @@ import {
   CertificationsData,
 } from "src/constants";
 import { IoMdArrowDropright } from "react-icons/io";
+import { MdDownload } from "react-icons/md";
+import { FaEye } from "react-icons/fa";
 const Resume = () => {
   return (
     <div className="" id="Resume">
       <SessionHeading>Resume</SessionHeading>
       <div className="p-6">
-        <div className="bg-resume-texture bg-cover  text-primary px-16 py-20 rounded-xl ">
+        <div className="bg-resume-texture bg-cover  text-primary px-16 py-10 rounded-xl ">
           <div className="flex flex-col gap-6">
+            <div className="flex flex-wrap  gap-6">
+              <a
+                href="Resume.pdf"
+                className=" flex gap-1 items-center px-4 py-2 w-fit rounded-lg text-nowrap bg-secondary text-accent font-semibold"
+                download
+              >
+                Download Resume
+                <MdDownload />
+              </a>
+              <a
+                href="Resume.pdf"
+                className=" flex gap-2 items-center px-4 py-2 border w-fit rounded-lg text-nowrap  text-primary font-semibold"
+                target="_blank"
+              >
+                View Resume
+                <FaEye />
+              </a>
+            </div>
             <div className="flex flex-col lg:flex-row justify-between gap-5">
               <Education />
               <Tools />
